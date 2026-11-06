@@ -95,10 +95,9 @@
         1.0,
         1.017
     ],
-    "datasource": "solio",
+    "datasource": "fplcopilot",
     "data_weights": {
-        "solio": 1,
-        "review": 1
+        "fplcopilot": 1
     },
     "export_data": "mixed.csv",
     "team_data": "json",

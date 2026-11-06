@@ -24,7 +24,7 @@ These are the core settings most users will interact with. You'll find them in `
 
 ### Data Source & Team
 - `datasource`: specifies which projection CSV to use or `"mixed"` for multiple sources
-  - Example: `"datasource": "solio"` if your projections file is called `solio.csv`
+  - Example: `"datasource": "fplcopilot"` to use this gameweek's `fplcopilot-projections-*.csv`
 - `team_data`: how to supply your team data. Must be one of:
   - `"id"` – look up your team via the `team_id` you supply
   - `"json"` – read team data from a `data/team.json` file (see [getting_team_json.md](getting_team_json.md) for how to get one).
@@ -178,7 +178,7 @@ These settings provide fine-grained control over the optimization. Most users wo
 
 ### Data Sources
 - `data_weights`: weight percentage for each data source when using `"datasource": "mixed"`
-  - Example: `"data_weights": {"solio": 1, "review": 1}`
+  - Example: `"data_weights": {"fplcopilot": 1}`
 - `export_data`: option to export mixed data as CSV
   - Example: `"export_data": "mixed.csv"`
 - `report_decay_base`: list of decay bases to compute and report for the solve

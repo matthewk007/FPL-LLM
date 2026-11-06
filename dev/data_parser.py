@@ -27,6 +27,13 @@ def read_data(options, source=None):
     if source == "mixed":
         return read_mixed(options, weights)
 
+    # fplcopilot files are named fplcopilot-projections-*.csv and are dropped into /data/
+    # every gameweek, so the exact filename is resolved at read time.
+    if source == "fplcopilot":
+        filepath = options.get("data_path") or resolve_fplcopilot_file()
+        print(f"Using fplcopilot projection file: {filepath}")
+        return read_fplcopilot(options, filepath)
+
     if f"{source}.csv" not in list_of_files:
         raise FileNotFoundError(f"Data file {source}.csv not found in /data/. Please upload it there and try again.")
 
@@ -38,6 +45,63 @@ def read_data(options, source=None):
             continue
 
     raise RuntimeError("All data readers failed.")
+
+
+def resolve_fplcopilot_file():
+    """Return the newest fplcopilot*.csv in /data/ (a plain fplcopilot.csv wins if present)."""
+    canonical = DATA_DIR / "fplcopilot.csv"
+    if canonical.exists():
+        return canonical
+    candidates = [p for p in DATA_DIR.glob("fplcopilot*.csv") if p.is_file()]
+    if not candidates:
+        raise FileNotFoundError("No fplcopilot*.csv projection file found in /data/. Upload this gameweek's file there.")
+    return max(candidates, key=os.path.getctime)
+
+
+# fplcopilot schema: fpl_id, name, team, position, price, gw{N}_xpts, gw{N}_xmins
+# Maps onto the solver's schema: ID, Name, Pos, {N}_Pts, {N}_xMins
+FPLCOPILOT_POS = {"GK": "G", "GKP": "G", "DEF": "D", "MID": "M", "FWD": "F", "G": "G", "D": "D", "M": "M", "F": "F"}
+
+
+def read_fplcopilot(options, filepath=None):
+    filepath = filepath or options.get("data_path") or resolve_fplcopilot_file()
+    df = pd.read_csv(filepath, encoding="utf-8")
+    df.columns = [str(c).strip() for c in df.columns]
+
+    id_col = next((c for c in df.columns if c.lower() in ("fpl_id", "id")), None)
+    pos_col = next((c for c in df.columns if c.lower() == "position"), None)
+    if id_col is None or pos_col is None or not _fplcopilot_gws(df):
+        raise ValueError(f"{filepath} is not an fplcopilot projections file (needs fpl_id, position, gw<N>_xpts/gw<N>_xmins)")
+
+    out = pd.DataFrame()
+    out["ID"] = pd.to_numeric(df[id_col], errors="coerce").astype("Int64")
+    name_col = next((c for c in ("name", "web_name") if c in df.columns), None)
+    out["Name"] = df[name_col] if name_col else ""
+    out["Pos"] = df[pos_col].map(FPLCOPILOT_POS)
+    if out["Pos"].isna().any():
+        bad = sorted(df.loc[out["Pos"].isna(), pos_col].astype(str).unique())
+        raise ValueError(f"Unmapped fplcopilot positions: {bad}")
+
+    cols = {c.lower(): c for c in df.columns}
+    for gw in _fplcopilot_gws(df):
+        out[f"{gw}_Pts"] = pd.to_numeric(df[cols[f"gw{gw}_xpts"]], errors="coerce").fillna(0.0)
+        out[f"{gw}_xMins"] = pd.to_numeric(df[cols[f"gw{gw}_xmins"]], errors="coerce").fillna(0.0).round().astype(int)
+
+    out = out.dropna(subset=["ID"]).drop_duplicates(subset=["ID"], keep="first")
+    out["ID"] = out["ID"].astype(int)
+    print(f"fplcopilot: {len(out)} players, GWs {min(_fplcopilot_gws(df))}-{max(_fplcopilot_gws(df))}")
+    return out
+
+
+def _fplcopilot_gws(df):
+    import re
+
+    gws = set()
+    for c in df.columns:
+        m = re.match(r"^gw(\d+)_(xpts|xmins)$", str(c), re.IGNORECASE)
+        if m:
+            gws.add(int(m.group(1)))
+    return sorted(gws)
 
 
 def read_solio(options):

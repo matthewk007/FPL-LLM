@@ -70,11 +70,11 @@ uv sync
 
 ### 1. Add Projection Data
 
-Place your projections file (e.g., `solio.csv`) in the `data/` folder.
+Place this gameweek's fplcopilot projections file (e.g., `fplcopilot-projections-gw10-2026-11-05-v4.csv`) in the `data/` folder. The newest `fplcopilot*.csv` in `data/` is used automatically.
 
 ### 2. Configure Data Source
 
-If you are not using the default data source, update the `datasource` field in `data/user_settings.json` to match your CSV file name.
+The default data source is `fplcopilot`. Update the `datasource` field in `data/user_settings.json` only if you want to use a different schema.
 
 Example: if you are using a file named `projections.csv`, the settings file should contain:
 

@@ -1,0 +1,2303 @@
+{
+  "source": "https://github.com/vaastav/Fantasy-Premier-League",
+  "branch": "master",
+  "seasons": [
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26",
+    "2026-27"
+  ],
+  "layout": "mirrors upstream: per-gameweek files under gws/",
+  "counts": {
+    "ok": 234,
+    "absent": 144,
+    "failed": 0
+  },
+  "xp_snapshots_per_season": {
+    "2018-19": 0,
+    "2019-20": 0,
+    "2020-21": 38,
+    "2021-22": 38,
+    "2022-23": 36,
+    "2023-24": 37,
+    "2024-25": 35,
+    "2025-26": 11,
+    "2026-27": 4
+  },
+  "total_bytes": 45210799,
+  "files": [
+    {
+      "season": "2018-19",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 636313
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 4240591
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP1.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP10.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP11.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP12.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP13.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP14.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP15.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP16.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP17.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP18.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP19.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP2.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP20.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP21.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP22.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP23.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP24.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP25.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP26.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP27.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP28.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP29.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP3.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP30.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP31.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP32.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP33.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP34.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP35.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP36.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP37.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP38.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP4.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP5.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP6.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP7.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP8.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "gws/xP9.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2018-19",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 141272
+    },
+    {
+      "season": "2018-19",
+      "file": "teams.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 668794
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 3018585
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP1.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP10.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP11.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP12.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP13.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP14.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP15.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP16.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP17.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP18.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP19.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP2.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP20.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP21.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP22.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP23.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP24.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP25.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP26.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP27.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP28.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP29.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP3.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP30.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP31.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP32.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP33.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP34.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP35.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP36.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP37.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP38.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP4.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP5.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP6.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP7.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP8.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "gws/xP9.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2019-20",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 174695
+    },
+    {
+      "season": "2019-20",
+      "file": "teams.csv",
+      "status": "ok",
+      "bytes": 1704
+    },
+    {
+      "season": "2020-21",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 660303
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 3578432
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP1.csv",
+      "status": "ok",
+      "bytes": 5201
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP10.csv",
+      "status": "ok",
+      "bytes": 5388
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP11.csv",
+      "status": "ok",
+      "bytes": 5413
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP12.csv",
+      "status": "ok",
+      "bytes": 5445
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP13.csv",
+      "status": "ok",
+      "bytes": 5438
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP14.csv",
+      "status": "ok",
+      "bytes": 5476
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP15.csv",
+      "status": "ok",
+      "bytes": 5482
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP16.csv",
+      "status": "ok",
+      "bytes": 5504
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP17.csv",
+      "status": "ok",
+      "bytes": 5582
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP18.csv",
+      "status": "ok",
+      "bytes": 5695
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP19.csv",
+      "status": "ok",
+      "bytes": 5773
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP2.csv",
+      "status": "ok",
+      "bytes": 5372
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP20.csv",
+      "status": "ok",
+      "bytes": 5788
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP21.csv",
+      "status": "ok",
+      "bytes": 5804
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP22.csv",
+      "status": "ok",
+      "bytes": 5940
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP23.csv",
+      "status": "ok",
+      "bytes": 5971
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP24.csv",
+      "status": "ok",
+      "bytes": 6012
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP25.csv",
+      "status": "ok",
+      "bytes": 6019
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP26.csv",
+      "status": "ok",
+      "bytes": 6143
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP27.csv",
+      "status": "ok",
+      "bytes": 6164
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP28.csv",
+      "status": "ok",
+      "bytes": 6156
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP29.csv",
+      "status": "ok",
+      "bytes": 6084
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP3.csv",
+      "status": "ok",
+      "bytes": 5505
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP30.csv",
+      "status": "ok",
+      "bytes": 6171
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP31.csv",
+      "status": "ok",
+      "bytes": 6180
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP32.csv",
+      "status": "ok",
+      "bytes": 6247
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP33.csv",
+      "status": "ok",
+      "bytes": 6219
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP34.csv",
+      "status": "ok",
+      "bytes": 6243
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP35.csv",
+      "status": "ok",
+      "bytes": 4068
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP36.csv",
+      "status": "ok",
+      "bytes": 6302
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP37.csv",
+      "status": "ok",
+      "bytes": 6324
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP38.csv",
+      "status": "ok",
+      "bytes": 6440
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP4.csv",
+      "status": "ok",
+      "bytes": 5641
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP5.csv",
+      "status": "ok",
+      "bytes": 5862
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP6.csv",
+      "status": "ok",
+      "bytes": 5261
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP7.csv",
+      "status": "ok",
+      "bytes": 5334
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP8.csv",
+      "status": "ok",
+      "bytes": 5335
+    },
+    {
+      "season": "2020-21",
+      "file": "gws/xP9.csv",
+      "status": "ok",
+      "bytes": 5374
+    },
+    {
+      "season": "2020-21",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 195696
+    },
+    {
+      "season": "2020-21",
+      "file": "teams.csv",
+      "status": "ok",
+      "bytes": 1705
+    },
+    {
+      "season": "2021-22",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 668973
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 3733462
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP1.csv",
+      "status": "ok",
+      "bytes": 4885
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP10.csv",
+      "status": "ok",
+      "bytes": 5620
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP11.csv",
+      "status": "ok",
+      "bytes": 5596
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP12.csv",
+      "status": "ok",
+      "bytes": 5678
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP13.csv",
+      "status": "ok",
+      "bytes": 5649
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP14.csv",
+      "status": "ok",
+      "bytes": 5695
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP15.csv",
+      "status": "ok",
+      "bytes": 5739
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP16.csv",
+      "status": "ok",
+      "bytes": 5811
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP17.csv",
+      "status": "ok",
+      "bytes": 5853
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP18.csv",
+      "status": "ok",
+      "bytes": 5890
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP19.csv",
+      "status": "ok",
+      "bytes": 5958
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP2.csv",
+      "status": "ok",
+      "bytes": 5074
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP20.csv",
+      "status": "ok",
+      "bytes": 5996
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP21.csv",
+      "status": "ok",
+      "bytes": 6118
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP22.csv",
+      "status": "ok",
+      "bytes": 6182
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP23.csv",
+      "status": "ok",
+      "bytes": 6283
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP24.csv",
+      "status": "ok",
+      "bytes": 6339
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP25.csv",
+      "status": "ok",
+      "bytes": 6338
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP26.csv",
+      "status": "ok",
+      "bytes": 6415
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP27.csv",
+      "status": "ok",
+      "bytes": 6411
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP28.csv",
+      "status": "ok",
+      "bytes": 6433
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP29.csv",
+      "status": "ok",
+      "bytes": 6431
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP3.csv",
+      "status": "ok",
+      "bytes": 5192
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP30.csv",
+      "status": "ok",
+      "bytes": 6366
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP31.csv",
+      "status": "ok",
+      "bytes": 6489
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP32.csv",
+      "status": "ok",
+      "bytes": 6485
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP33.csv",
+      "status": "ok",
+      "bytes": 6489
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP34.csv",
+      "status": "ok",
+      "bytes": 6545
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP35.csv",
+      "status": "ok",
+      "bytes": 6558
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP36.csv",
+      "status": "ok",
+      "bytes": 6647
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP37.csv",
+      "status": "ok",
+      "bytes": 6321
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP38.csv",
+      "status": "ok",
+      "bytes": 6644
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP4.csv",
+      "status": "ok",
+      "bytes": 5390
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP5.csv",
+      "status": "ok",
+      "bytes": 5414
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP6.csv",
+      "status": "ok",
+      "bytes": 5461
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP7.csv",
+      "status": "ok",
+      "bytes": 5460
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP8.csv",
+      "status": "ok",
+      "bytes": 5539
+    },
+    {
+      "season": "2021-22",
+      "file": "gws/xP9.csv",
+      "status": "ok",
+      "bytes": 5549
+    },
+    {
+      "season": "2021-22",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 205493
+    },
+    {
+      "season": "2021-22",
+      "file": "teams.csv",
+      "status": "ok",
+      "bytes": 1701
+    },
+    {
+      "season": "2022-23",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 696260
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 4638801
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP1.csv",
+      "status": "ok",
+      "bytes": 5064
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP10.csv",
+      "status": "ok",
+      "bytes": 5736
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP11.csv",
+      "status": "ok",
+      "bytes": 5735
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP12.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP13.csv",
+      "status": "ok",
+      "bytes": 5794
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP14.csv",
+      "status": "ok",
+      "bytes": 5863
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP15.csv",
+      "status": "ok",
+      "bytes": 5895
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP16.csv",
+      "status": "ok",
+      "bytes": 5974
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP17.csv",
+      "status": "ok",
+      "bytes": 6063
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP18.csv",
+      "status": "ok",
+      "bytes": 6103
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP19.csv",
+      "status": "ok",
+      "bytes": 6188
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP2.csv",
+      "status": "ok",
+      "bytes": 5230
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP20.csv",
+      "status": "ok",
+      "bytes": 6299
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP21.csv",
+      "status": "ok",
+      "bytes": 6335
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP22.csv",
+      "status": "ok",
+      "bytes": 6613
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP23.csv",
+      "status": "ok",
+      "bytes": 6668
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP24.csv",
+      "status": "ok",
+      "bytes": 6664
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP25.csv",
+      "status": "ok",
+      "bytes": 6690
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP26.csv",
+      "status": "ok",
+      "bytes": 6675
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP27.csv",
+      "status": "ok",
+      "bytes": 6718
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP28.csv",
+      "status": "ok",
+      "bytes": 6712
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP29.csv",
+      "status": "ok",
+      "bytes": 6760
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP3.csv",
+      "status": "ok",
+      "bytes": 5305
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP30.csv",
+      "status": "ok",
+      "bytes": 6734
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP31.csv",
+      "status": "ok",
+      "bytes": 6811
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP32.csv",
+      "status": "ok",
+      "bytes": 6791
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP33.csv",
+      "status": "ok",
+      "bytes": 6779
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP34.csv",
+      "status": "ok",
+      "bytes": 6839
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP35.csv",
+      "status": "ok",
+      "bytes": 6814
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP36.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP37.csv",
+      "status": "ok",
+      "bytes": 6963
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP38.csv",
+      "status": "ok",
+      "bytes": 6957
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP4.csv",
+      "status": "ok",
+      "bytes": 5389
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP5.csv",
+      "status": "ok",
+      "bytes": 5526
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP6.csv",
+      "status": "ok",
+      "bytes": 5568
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP7.csv",
+      "status": "ok",
+      "bytes": 5542
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP8.csv",
+      "status": "ok",
+      "bytes": 5629
+    },
+    {
+      "season": "2022-23",
+      "file": "gws/xP9.csv",
+      "status": "ok",
+      "bytes": 5713
+    },
+    {
+      "season": "2022-23",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 280362
+    },
+    {
+      "season": "2022-23",
+      "file": "teams.csv",
+      "status": "ok",
+      "bytes": 1711
+    },
+    {
+      "season": "2023-24",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 712532
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 4997188
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP1.csv",
+      "status": "ok",
+      "bytes": 5878
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP10.csv",
+      "status": "ok",
+      "bytes": 6556
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP11.csv",
+      "status": "ok",
+      "bytes": 6562
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP12.csv",
+      "status": "ok",
+      "bytes": 6670
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP13.csv",
+      "status": "ok",
+      "bytes": 6717
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP14.csv",
+      "status": "ok",
+      "bytes": 6711
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP15.csv",
+      "status": "ok",
+      "bytes": 6794
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP16.csv",
+      "status": "ok",
+      "bytes": 6803
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP17.csv",
+      "status": "ok",
+      "bytes": 6851
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP18.csv",
+      "status": "ok",
+      "bytes": 6876
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP19.csv",
+      "status": "ok",
+      "bytes": 6901
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP2.csv",
+      "status": "ok",
+      "bytes": 5998
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP20.csv",
+      "status": "ok",
+      "bytes": 6927
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP21.csv",
+      "status": "ok",
+      "bytes": 7048
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP22.csv",
+      "status": "ok",
+      "bytes": 7244
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP23.csv",
+      "status": "ok",
+      "bytes": 7227
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP24.csv",
+      "status": "ok",
+      "bytes": 7275
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP25.csv",
+      "status": "ok",
+      "bytes": 7388
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP26.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP27.csv",
+      "status": "ok",
+      "bytes": 7471
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP28.csv",
+      "status": "ok",
+      "bytes": 7495
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP29.csv",
+      "status": "ok",
+      "bytes": 7479
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP3.csv",
+      "status": "ok",
+      "bytes": 6141
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP30.csv",
+      "status": "ok",
+      "bytes": 7544
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP31.csv",
+      "status": "ok",
+      "bytes": 7557
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP32.csv",
+      "status": "ok",
+      "bytes": 7610
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP33.csv",
+      "status": "ok",
+      "bytes": 7627
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP34.csv",
+      "status": "ok",
+      "bytes": 7721
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP35.csv",
+      "status": "ok",
+      "bytes": 7713
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP36.csv",
+      "status": "ok",
+      "bytes": 7714
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP37.csv",
+      "status": "ok",
+      "bytes": 7734
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP38.csv",
+      "status": "ok",
+      "bytes": 7788
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP4.csv",
+      "status": "ok",
+      "bytes": 6389
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP5.csv",
+      "status": "ok",
+      "bytes": 6435
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP6.csv",
+      "status": "ok",
+      "bytes": 6438
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP7.csv",
+      "status": "ok",
+      "bytes": 6480
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP8.csv",
+      "status": "ok",
+      "bytes": 6497
+    },
+    {
+      "season": "2023-24",
+      "file": "gws/xP9.csv",
+      "status": "ok",
+      "bytes": 6554
+    },
+    {
+      "season": "2023-24",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 310197
+    },
+    {
+      "season": "2023-24",
+      "file": "teams.csv",
+      "status": "ok",
+      "bytes": 1715
+    },
+    {
+      "season": "2024-25",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 751413
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 5125595
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP1.csv",
+      "status": "ok",
+      "bytes": 5443
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP10.csv",
+      "status": "ok",
+      "bytes": 6039
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP11.csv",
+      "status": "ok",
+      "bytes": 6065
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP12.csv",
+      "status": "ok",
+      "bytes": 6106
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP13.csv",
+      "status": "ok",
+      "bytes": 6148
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP14.csv",
+      "status": "ok",
+      "bytes": 6196
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP15.csv",
+      "status": "ok",
+      "bytes": 6174
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP16.csv",
+      "status": "ok",
+      "bytes": 6271
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP17.csv",
+      "status": "ok",
+      "bytes": 6261
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP18.csv",
+      "status": "ok",
+      "bytes": 6304
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP19.csv",
+      "status": "ok",
+      "bytes": 6336
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP2.csv",
+      "status": "ok",
+      "bytes": 5617
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP20.csv",
+      "status": "ok",
+      "bytes": 6375
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP21.csv",
+      "status": "ok",
+      "bytes": 6474
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP22.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP23.csv",
+      "status": "ok",
+      "bytes": 6757
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP24.csv",
+      "status": "ok",
+      "bytes": 6920
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP25.csv",
+      "status": "ok",
+      "bytes": 6985
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP26.csv",
+      "status": "ok",
+      "bytes": 6993
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP27.csv",
+      "status": "ok",
+      "bytes": 7020
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP28.csv",
+      "status": "ok",
+      "bytes": 7074
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP29.csv",
+      "status": "ok",
+      "bytes": 7039
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP3.csv",
+      "status": "ok",
+      "bytes": 5864
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP30.csv",
+      "status": "ok",
+      "bytes": 7123
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP31.csv",
+      "status": "ok",
+      "bytes": 7128
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP32.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP33.csv",
+      "status": "ok",
+      "bytes": 7189
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP34.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP35.csv",
+      "status": "ok",
+      "bytes": 7189
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP36.csv",
+      "status": "ok",
+      "bytes": 7161
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP37.csv",
+      "status": "ok",
+      "bytes": 7171
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP38.csv",
+      "status": "ok",
+      "bytes": 7215
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP4.csv",
+      "status": "ok",
+      "bytes": 5900
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP5.csv",
+      "status": "ok",
+      "bytes": 5874
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP6.csv",
+      "status": "ok",
+      "bytes": 5941
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP7.csv",
+      "status": "ok",
+      "bytes": 5959
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP8.csv",
+      "status": "ok",
+      "bytes": 5969
+    },
+    {
+      "season": "2024-25",
+      "file": "gws/xP9.csv",
+      "status": "ok",
+      "bytes": 5971
+    },
+    {
+      "season": "2024-25",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 342122
+    },
+    {
+      "season": "2024-25",
+      "file": "teams.csv",
+      "status": "ok",
+      "bytes": 1717
+    },
+    {
+      "season": "2025-26",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 1014129
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 5445456
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP1.csv",
+      "status": "ok",
+      "bytes": 6163
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP10.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP11.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP12.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP13.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP14.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP15.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP16.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP17.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP18.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP19.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP2.csv",
+      "status": "ok",
+      "bytes": 6313
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP20.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP21.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP22.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP23.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP24.csv",
+      "status": "ok",
+      "bytes": 7285
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP25.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP26.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP27.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP28.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP29.csv",
+      "status": "ok",
+      "bytes": 7345
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP3.csv",
+      "status": "ok",
+      "bytes": 6611
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP30.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP31.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP32.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP33.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP34.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP35.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP36.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP37.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP38.csv",
+      "status": "ok",
+      "bytes": 7509
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP4.csv",
+      "status": "ok",
+      "bytes": 7387
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP5.csv",
+      "status": "ok",
+      "bytes": 7399
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP6.csv",
+      "status": "ok",
+      "bytes": 7384
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP7.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP8.csv",
+      "status": "ok",
+      "bytes": 6674
+    },
+    {
+      "season": "2025-26",
+      "file": "gws/xP9.csv",
+      "status": "ok",
+      "bytes": 6659
+    },
+    {
+      "season": "2025-26",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 380363
+    },
+    {
+      "season": "2025-26",
+      "file": "teams.csv",
+      "status": "ok",
+      "bytes": 1744
+    },
+    {
+      "season": "2026-27",
+      "file": "fixtures.csv",
+      "status": "ok",
+      "bytes": 189806
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/merged_gw.csv",
+      "status": "ok",
+      "bytes": 705975
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP1.csv",
+      "status": "ok",
+      "bytes": 5443
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP10.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP11.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP12.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP13.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP14.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP15.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP16.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP17.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP18.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP19.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP2.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP20.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP21.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP22.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP23.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP24.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP25.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP26.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP27.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP28.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP29.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP3.csv",
+      "status": "ok",
+      "bytes": 5803
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP30.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP31.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP32.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP33.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP34.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP35.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP36.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP37.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP38.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP4.csv",
+      "status": "ok",
+      "bytes": 5830
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP5.csv",
+      "status": "ok",
+      "bytes": 5904
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP6.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP7.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP8.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "gws/xP9.csv",
+      "status": "absent",
+      "error": "HTTP 404"
+    },
+    {
+      "season": "2026-27",
+      "file": "players_raw.csv",
+      "status": "ok",
+      "bytes": 431405
+    },
+    {
+      "season": "2026-27",
+      "file": "teams.csv",
+      "status": "ok",
+      "bytes": 1378
+    }
+  ]
+}
